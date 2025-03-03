@@ -2,10 +2,13 @@ from apikeys import init_keys
 
 import os
 from pydantic import BaseModel, Field
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_community.tools import tool
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.messages import HumanMessage
+from langchain.tools.retriever import create_retriever_tool
+from langchain_community.document_loaders import PyPDFLoader, TextLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Initializing all API Keys [Google, Tavily, Pinecone]
 init_keys()

@@ -1,2 +1,0 @@
-GEMINI API KEY = `AIzaSyAM-cxlqhx55RhulwENINaeOLyBk1PmX9U`
-Tavily API KEY = `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`

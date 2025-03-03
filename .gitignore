@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 /task 2/apikeys.py
-test.py
+/task 2/test.py
