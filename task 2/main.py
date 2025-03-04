@@ -1,5 +1,3 @@
-from apikeys import init_keys
-
 import os
 import random
 from pydantic import BaseModel, Field
@@ -13,10 +11,10 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langgraph.prebuilt import create_react_agent
 from langgraph.checkpoint.memory import MemorySaver
-from langchain import hub
 
-# Initializing all API Keys [Google, Tavily, Pinecone]
-init_keys()
+# Initializing all API Keys [Google, Tavily]
+os.environ["GOOGLE_API_KEY"] = "YOUR-GOOGLE-API-KEY"
+os.environ["TAVILY_API_KEY"] = "YOUR-TAVILY-API-KEY"
 
 # Creating the base things needed for RAG
 docs_location = os.path.join(os.curdir, "docs")
