@@ -1,0 +1,12 @@
+Hi, I'm Utkarsh Malaiya, a first-year at Vellore Institute Of Technology in Vellore, pursuing B.Tech in Computer Science and Engineering. I am a hard-working and ambitious person with a keen interest in Artificial Intelligence and Microcontroller Electronics and I always strive to develop my skills to contribute meaningfully in these fields.
+
+As a student, I am currently exploring subjects like statistics, electronics, data analytics and economics which allow me to broaden my knowledge about the world, which is something I greatly enjoy learning about. My curiosity drives me to learn beyond the confines of the classroom, and I actively engage in projects that improve my understanding.
+
+Although I have just started, I have already developed foundational skills in Python, Deep Learning, Single-Board Computers and my communication skills. Recently, I worked on a project that involved me creating a Google Lens like hardware setup using Python and Raspberry Pi through I greatly improved my engineering skills and my understanding of Microcontrollers like RPi.
+
+Apart from academics, I have experience partaking in debates, MUNs, skits, hackathons and volunteering as a teacher in local NGOs which have contributed to my communication, engineering and leadership skills, and given me the opportunity to interact with diverse groups of people.
+
+I am a quick learner, adaptable, and dedicated to continuous improvement. I am particularly interested in becoming the best Edge AI engineer in the world in the future and I look forward to gaining practical experience through internships and projects that align with my passion.
+
+Thank you for your time! I am excited to learn, grow and explore new opportunities and I look forward to connecting with like-minded individuals and contributing to meaningful projects that help me achieve my goal. Have a fantastic day ahead!
+
