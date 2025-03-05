@@ -8,6 +8,10 @@ Scratchpad Kaggle notebook, where I've detailed every training problem as well: 
 
 Final notebook, that I've uploaded to the competition and as main.ipynb here: [Main Notebook](https://www.kaggle.com/code/utkmal/main-cifar-10-using-self-trained-cnn)
 
+From the main notebook, a zip file was returned as output containing the "train" and "test" folders that contained the images, the .pth file that contained the best model, and the "submission.csv" file that would get submitted.
+
+For reference, the best_model.pth and submission.csv files have been included in the "task 1" folder.
+
 ### CNN Model Architecture (along with Input and Output dimensions):
 
 * Input [ Dimensions: (Batch_size (32), 3, 32, 32) ]
@@ -22,13 +26,18 @@ Final notebook, that I've uploaded to the competition and as main.ipynb here: [M
 * Dropout with keep_probability = 0.3
 * Output Layer [ (32, 128) -> (32, 10) ]
 
+With this architecture, when I uploaded the "submission.csv" file to Kaggle, I was able to get a score 0.77460, which is a very good score, considering this solution would've landed me to #54 or #55 position based on the end-of-competition leaderboard standings.
+
+![Proof of score](image.png)
+
+
 ## Task 2 - Implement a RAG-based LLM solution, that also has function calling
 
 Here, Langchain was used as the LLM-development framework to implement a RAG-utilizing **ReAct LLM agent**, capable of calling different tools when the need arises.
 
 LLM model used: Gemini 2.0 Flash
 
-Embedding model: Google Embedding 002
+Embedding model: Google Embedding 001
 
 Tools available for the ReAct agent:
 
