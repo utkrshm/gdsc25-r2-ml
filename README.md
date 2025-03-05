@@ -6,7 +6,7 @@ This repository has been created to submit the tasks for GDSC-VIT's ML Domain Ro
 
 Scratchpad Kaggle notebook, where I've detailed every training problem as well: [Scratchpad Notebook](https://www.kaggle.com/code/utkmal/cifar-10-using-self-trained-cnn/)
 
-Final notebook, that I've uploaded to the competition and as main.ipynb here: 
+Final notebook, that I've uploaded to the competition and as main.ipynb here: [Main Notebook](https://www.kaggle.com/code/utkmal/main-cifar-10-using-self-trained-cnn)
 
 ### CNN Model Architecture (along with Input and Output dimensions):
 
